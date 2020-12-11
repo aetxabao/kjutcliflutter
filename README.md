@@ -1,16 +1,21 @@
 # kjutcliflutter
 
-A new Flutter project.
+Código del cliente Flutter del servicio llamado "kjut" que utiliza sockets.
+Los clientes se conectarán a la IP y puerto en el que escucha el servidor.
+Cada vez que se pulse un valor '0', '1' o '2' será enviado al servidor.
+La IP y el puerto del servidor se guardan en el almacenamiento local.
+La aplicación al arrancarse intenta conectarse al servidor.
+Si no puede conectarse se muestra la pantalla de configuración.
+En la pantalla de configuración también se valida IP, puerto y conexión.
+Se puede "votar" las veces que se quiera.
 
-## Getting Started
+## Descripción
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+El *funcionamiento* del servicio se explica en el siguiente vídeo.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/hTx5lIY4W8w/0.jpg)](https://www.youtube.com/watch?v=hTx5lIY4W8w&list=PLK_BHw0Wm4MKLFysxzgfIMKuY0b-HTGvp&index=1 "01. Funcionamiento servicio kjut")
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+El *código* del servicio se explica en este otro vídeo.
+
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/N5deLuK5Lvg/0.jpg)](https://www.youtube.com/watch?v=N5deLuK5Lvg&list=PLK_BHw0Wm4MKLFysxzgfIMKuY0b-HTGvp&index=2 "02. Código servicio kjut")
